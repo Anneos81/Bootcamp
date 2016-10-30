@@ -1,0 +1,18 @@
+number=input('Give TIN:')
+new_num=str(number)
+kom=new_num[:8]
+finale=kom[::-1]
+print(finale)
+count=1
+sum=0
+for i in finale :
+    sum+= (int(i))*(2**count)
+    count+=1
+print(sum)    
+upol1=sum%11
+last=upol1%10
+print(last)
+if last == int(num[8]):
+   print('Great, you are correct')
+else:
+    print('Something is wrong')

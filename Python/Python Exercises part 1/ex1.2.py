@@ -1,0 +1,7 @@
+num50 = input("Give number of 50 euro banknotes:")
+num20 = input("Give number of 20 euro banknotes:")
+num10 = input("Give number of 10 euro banknotes:")
+num5 = input("Give number of 5 euro banknotes:")
+num2 = input("Give number of 2 euro coins:")
+num1 = input("Give number of 1 euro coins:")
+print("You have:", 50*int(num50)+20*int(num20)+10*int(num10)+5*int(num5)+2*int(num2)+1*int(num1))
