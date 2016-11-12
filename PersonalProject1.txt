@@ -1,0 +1,6 @@
+url: http://83.212.100.88:8080/Art%2DHouse/
+
+This is my first attempt of creating a site.
+Operrations: You may click the Edit Item button at any painting. 
+It will redirect you to another page in order to edit the characteristics of a painting. 
+It also counts the visitors of each page.
